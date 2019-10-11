@@ -1,0 +1,91 @@
+body{
+	 background-color: #50E3C2 !important;
+	 background-image: url('https://www.kimaventures.com/backgroundk.png');
+	 flex-wrap: wrap;
+	 box-sizing: border-box;
+}
+
+.container-kimaventures{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 100px;
+
+}
+
+.container-left{
+	max-width: 80%;
+}
+
+.container-right{
+	display: grid;
+	width: 80%;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 60px;
+	align-items: center;
+}
+
+.presentation{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.logo{
+	width: 50%;
+}
+
+.logo img{
+	width: 250px;
+}
+
+h2{
+	font-size: 30px !important;
+}
+
+p{
+	font-size: 40px;
+	color: white;
+}
+
+.logobox{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 150px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.logobox img{
+	width: 100%;
+
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+@media all and (max-width: 1300px){
+	.container-kimaventures{
+		display: flex !important;
+		width: 100%;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	.container-right{
+	margin: 50px 10px;
+	max-width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+	.logobox{
+		margin: 10px;
+		width: 200px !important;
+		height: 150px !important;
+	}
+}
