@@ -59,6 +59,11 @@ p{
 	padding: 10px;
 }
 
+.logobox:hover{
+	transition-duration: 1.5s;
+	border-radius: 30px;
+}
+
 .logobox img{
 	width: 100%;
 
@@ -72,8 +77,8 @@ p{
 	.container-kimaventures{
 		display: flex !important;
 		width: 100%;
+		margin: 100px auto;
 		flex-direction: column;
-		margin: auto;
 	}
 
 	.container-right{
